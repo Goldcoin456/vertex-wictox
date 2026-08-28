@@ -62,3 +62,20 @@ label {
   letter-spacing: 0.005em;
   font-weight: 600;
 }
+
+.vertex-page {
+  background-image: repeating-linear-gradient(135deg, transparent 0, transparent 5px, rgba(226, 112, 75, 0.1) 5px, rgba(226, 112, 75, 0.1) 6px);
+}
+
+.vertex-bars {
+  background: linear-gradient(to top, rgba(244, 131, 99, 0.72), rgba(244, 131, 99, 0.12) 80%, transparent),
+    linear-gradient(to top, rgba(244, 131, 99, 0.7), rgba(244, 131, 99, 0.08) 78%, transparent) 7% 100% / 10% 55% no-repeat,
+    linear-gradient(to top, rgba(244, 131, 99, 0.68), rgba(244, 131, 99, 0.08) 78%, transparent) 17% 100% / 10% 76% no-repeat,
+    linear-gradient(to top, rgba(244, 131, 99, 0.65), rgba(244, 131, 99, 0.08) 78%, transparent) 27% 100% / 10% 95% no-repeat,
+    linear-gradient(to top, rgba(244, 131, 99, 0.6), rgba(244, 131, 99, 0.06) 78%, transparent) 37% 100% / 10% 65% no-repeat,
+    linear-gradient(to top, rgba(244, 131, 99, 0.6), rgba(244, 131, 99, 0.06) 78%, transparent) 47% 100% / 10% 45% no-repeat,
+    linear-gradient(to top, rgba(244, 131, 99, 0.65), rgba(244, 131, 99, 0.08) 78%, transparent) 65% 100% / 10% 52% no-repeat,
+    linear-gradient(to top, rgba(244, 131, 99, 0.68), rgba(244, 131, 99, 0.08) 78%, transparent) 75% 100% / 10% 73% no-repeat,
+    linear-gradient(to top, rgba(244, 131, 99, 0.72), rgba(244, 131, 99, 0.1) 78%, transparent) 85% 100% / 10% 98% no-repeat,
+    linear-gradient(to top, rgba(244, 131, 99, 0.65), rgba(244, 131, 99, 0.08) 78%, transparent) 95% 100% / 10% 65% no-repeat;
+}
